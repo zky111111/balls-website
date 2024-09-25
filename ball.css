@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    /* 设置页面背景颜色 */
+}
+
+#container {
+    position: relative;
+    /* 设置容器为相对定位 */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    /* 设置小球位置为绝对定位，使小球相对于其父容器定位 */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* 通过 50% 的边角半径使小球呈现圆形 */
+    background-color: red;
+    /* 设置小球的默认背景颜色为红色 */
+}
